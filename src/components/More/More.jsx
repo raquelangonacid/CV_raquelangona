@@ -22,8 +22,8 @@ const Languages = ({languages, habilities}) => {
 
                 <div className="Language">
                 <p key={languages.language} className="idioma">{item.language}</p>
-                <p key={languages.wrlevel} className="nivel">{item.wrlevel}</p>
-                <p key={languages.splevel} className="nivel">{item.splevel}</p>
+                <p key={languages.wrlevel} className="nivel">✍{item.wrlevel}</p>
+                <p key={languages.splevel} className="nivel">📢{item.splevel}</p>
                 </div>
               </div>
             )
