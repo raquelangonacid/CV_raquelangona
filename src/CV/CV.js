@@ -29,7 +29,7 @@ export const CV = {
         where: "Universidad Rey Juan Carlos",
       },
       {
-        name: "Licenciatura en Comunicación Audioviual",
+        name: "Licenciatura en Comunicación Audiovisual",
         date: "2004-2014",
         where: "Universidad Complutense de Madrid",
       },
