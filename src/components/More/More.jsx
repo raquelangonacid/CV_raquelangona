@@ -11,7 +11,7 @@ const Languages = ({languages, habilities}) => {
             <h2>IDIOMAS</h2>
             <div>
               <img src="https://cdn-icons-png.flaticon.com/512/555/555635.png" alt="español" className="bandera"/>
-              <img src="https://cdn-icons.flaticon.com/png/512/5111/premium/5111640.png?token=exp=1655590932~hmac=6bf76220d520236a9d928e399d061508" alt="inglés" className="bandera"/>
+              <img src="https://cdn-icons-png.flaticon.com/512/206/206592.png" alt="inglés" className="bandera"/>
               <img src="https://cdn-icons-png.flaticon.com/512/206/206657.png" alt="francés" className="bandera"/>
             </div>
           </div>
