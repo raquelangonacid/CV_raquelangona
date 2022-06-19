@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 70%;
+    min-width: 400px;
+
+    p{
+        display: flex;
+        justify-content: center;
+        margin: 5px 10px;
+    }
+
+    .about__titulo{
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    .about__contenido{
+        color: darkslategrey;
+        display: flex;
+        text-align: center;
+    }
+}

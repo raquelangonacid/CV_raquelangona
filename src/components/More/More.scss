@@ -1,0 +1,80 @@
+.More{
+
+    margin-bottom: 30px;
+
+    .tituloidiomas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        .bandera{
+            width: 30px;
+            gap: 5px;
+            margin-bottom: -8px;
+        }
+    }
+
+    .Languages{
+        border: 2px solid #2e62a4;
+        display: flex;
+        width: 250px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        .idioma{
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #2e62a4;
+        }
+
+
+    }
+    .Habilities{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .listado{
+            display: flex;
+            flex-direction: column;
+            
+            margin-bottom: 15px;    
+            border: 2px solid #817e89;;   
+            padding: 10px 20px; 
+   
+
+            .iconos{
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 250px;
+                justify-content: center;
+                align-items: center;
+                margin-top: 25px;
+    
+                .icono{
+                    width: 35px;
+                    margin: 5px 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1100px){
+    .More{
+        display: flex;
+        flex-direction: column;
+
+        .divresponsive{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+}

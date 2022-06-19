@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Niramit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Niramit', sans-serif;
+}
+
+.base{
+    background-image: url(../public/assets/fondo4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    .botones{
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -20px;
+
+        button{
+            padding: 5px 10px;
+            width: 150px;
+            font-size: 1rem;    
+            color: whitesmoke;
+            font-weight: 900;        
+            border-radius: 20px;
+            text-decoration: none;
+            z-index: 0;
+            &:hover{
+                border: 3px solid whitesmoke;
+            }
+        }
+        .boton_educacion{
+            background-color: #2e62a4;
+            border: 3px solid #2e62a4;
+
+        }
+
+        .boton_experiencia{
+            background-color: #817e89;
+            border: 3px solid #817e89;
+
+        }
+
+    }
+    .E{
+        background-color: rgba(245, 245, 245, 0.400);
+        border-radius: 10px;
+        width: 70%;
+        display: flex;
+        margin-bottom: 25px;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .More{
+        background-color: rgba(245, 245, 245, 0.400);
+        border-radius: 10px;
+        width: 70%;
+        gap: 100px;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px; 
+    
+    }
+    
+
+}
+
